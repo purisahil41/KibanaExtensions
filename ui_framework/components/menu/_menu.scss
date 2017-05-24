@@ -1,0 +1,15 @@
+.kuiMenu--contained {
+  border: $globalBorderThin;
+
+  .kuiMenuItem {
+    padding: 6px 10px;
+  }
+}
+
+.kuiMenuItem {
+  padding: 6px 0;
+
+  & + & {
+    border-top: $globalBorderThin;
+  }
+}

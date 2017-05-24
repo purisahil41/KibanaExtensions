@@ -1,0 +1,51 @@
+@import (reference) "~ui/styles/mixins.less";
+
+.dashboardLink
+{
+color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+    padding: 3px;
+    margin: 5px;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25em;
+    font-size: 90%;
+    font-weight: normal;
+    line-height: 1;
+}
+
+.dashboardLinkSelected
+{
+    font-size: 100%!important;
+    font-weight: bold!important;
+}
+.markdown-vis {
+  padding: 1em;
+  width: 100%;
+}
+
+.vis-editor {
+
+  &.vis-type-markdown {
+
+    .visualization-options {
+      .flex-parent();
+      flex: 1 1 auto;
+    }
+
+    .markdown-vis-options {
+      .flex-parent();
+      flex: 1 1 auto;
+
+      textarea {
+        flex: 1 1 auto;
+        resize: none;
+      }
+
+    }
+
+  }
+
+}
