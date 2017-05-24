@@ -1,0 +1,221 @@
+.global-nav-link:hover {
+  background: silver;
+}
+.global-nav-link.active {
+  background: -webkit-gradient(linear, center top, center bottom, from(grey), to(silver));
+  background: -webkit-linear-gradient(left, grey, silver);
+  background: -moz-linear-gradient(right, grey, silver);
+  background: -o-linear-gradient(right, grey, silver);
+  /*background: -ms-linear-gradient(silver, grey);*/
+  background: linear-gradient(to right, grey, silver);
+}
+.global-nav {
+  width: 53px;
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 0;
+  background-color: steelblue;
+  overflow: hidden;
+}
+.global-nav .logo.kibana {
+  background-image: url(C:/kibana-5.4.0/optimize/bundles/ericsson.png);  
+  background-color: white;
+      background-position: 0px 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    image-rendering: -moz-crisp-edges;         /* Firefox */
+    image-rendering:   -o-crisp-edges;         /* Opera */
+    image-rendering: -webkit-optimize-contrast;/* Webkit (non-standard naming) */
+    image-rendering: crisp-edges;
+    -ms-interpolation-mode: nearest-neighbor;  /* IE (non-standard property) */
+}
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+.toaster-container .alert-info {
+    background: steelblue;
+    background-repeat: repeat-x;
+    border-color: grey;
+    color: white;
+}
+.toaster-container .btn-info, .toaster-container .btn-info:hover, .toaster-container .btn-info:focus {
+    background: linear-gradient(to right,silver 0%,grey 100%);
+    background-repeat: repeat-x;
+    border-color: steelblue;
+}
+
+.alert-warning
+{
+    background: #FF7A00;
+    color:white;
+    }
+
+    .btn-warning
+    {
+    background: #FF7A00;
+    }
+
+  .alert-danger
+  {
+   background: #FF3855
+  }
+  .btn-danger
+  {
+   background: #FF3855
+  }
+.toaster-container .toaster-countdown .badge {
+  color: white;
+}
+.toaster-container .alert-success .badge {
+  background: green;
+}
+.toaster-container .alert-info .badge {
+  background: black;
+}
+.toaster-container .alert-warning .badge {
+  background: #7f5006;
+}
+.toaster-container .alert-danger .badge {
+  background: #921e12;
+}
+// .toaster-container .alert-banner {
+//   background-color: white;
+//   padding: 10px 15px;
+// }
+// .toaster-container .alert-banner a {
+//   color: #328caa;
+// }
+// .toaster-container .alert-banner .toaster-countdown {
+//   background-color: white;
+// }
+// .toaster-container .alert-banner .badge {
+//   background-color: #328caa;
+// }
+
+.sidebar-container .index-pattern {
+    font-weight: 700;
+    padding: 5px 10px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    background-color: silver;
+    line-height: 28px;
+}
+
+.btn-default
+{
+  background-color: grey!important;
+  border-color: grey!important;
+}
+.sidebar-container {
+    padding-left: 0!important;
+    padding-right: 0!important;
+    background-color: #e4e4e4;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+}
+.sidebar-container .sidebar-list-header {
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #444;
+    border: 1px solid;
+    border-color: transparent;
+    background-color: silver;
+}
+
+.btn-default {
+    background-image: linear-gradient(to bottom,grey 0%,silver 100%);
+    // filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff',endColorstr='#ffe0e0e0',GradientType=0);
+    // filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+    background-repeat: repeat-x;
+    border-color: #e4e4e4;
+    text-shadow: 0 1px 0 #fff;
+}
+.btn-default:focus, .btn-default:hover {
+    background-color: grey;
+    border-color: darkslategrey;
+}
+
+
+
+.btn-primary {
+    background-image: linear-gradient(to bottom,skyblue 0%,steelblue 100%);
+    background-repeat: repeat-x;
+    border-color: darkslategrey;
+}
+
+.btn-primary:focus, .btn-primary:hover {
+    background-color: steelblue;
+    background-position: 0 -15px;
+}
+
+.btn-success.disabled, .btn-success.disabled.active, .btn-success.disabled.focus, .btn-success.disabled:active, .btn-success.disabled:focus, .btn-success.disabled:hover, .btn-success[disabled], .btn-success[disabled].active, .btn-success[disabled].focus, .btn-success[disabled]:active, .btn-success[disabled]:focus, .btn-success[disabled]:hover, fieldset[disabled] .btn-success, fieldset[disabled] .btn-success.active, fieldset[disabled] .btn-success.focus, fieldset[disabled] .btn-success:active, fieldset[disabled] .btn-success:focus, fieldset[disabled] .btn-success:hover {
+    background-color: green;
+    background-image: none;
+}
+
+.btn-default.disabled, .btn-default.disabled.active, .btn-default.disabled.focus, .btn-default.disabled:active, .btn-default.disabled:focus, .btn-default.disabled:hover, .btn-default[disabled], .btn-default[disabled].active, .btn-default[disabled].focus, .btn-default[disabled]:active, .btn-default[disabled]:focus, .btn-default[disabled]:hover, fieldset[disabled] .btn-default, fieldset[disabled] .btn-default.active, fieldset[disabled] .btn-default.focus, fieldset[disabled] .btn-default:active, fieldset[disabled] .btn-default:focus, fieldset[disabled] .btn-default:hover {
+    background-color: silver;
+    background-image: none;
+}
+
+
+.loadingIndicator__bar {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    z-index: 10;
+    visibility: visible;
+    display: block;
+    -webkit-animation: animate-loading-indcator 2s linear infinite;
+    animation: animate-loading-indcator 2s linear infinite;
+    background-color: steelblue;
+    background-image: linear-gradient(to right, darkblue 0%, darkblue 50%, steelblue 50%, steelblue 100%);
+    background-repeat: repeat-x;
+    background-size: 400px 400px;
+    width: 400%;
+}
+
+.loadingIndicator {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    overflow: hidden;
+    height: 5px;
+}
+
+.kibanaLoader__content {
+     background-color: red; 
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 1 auto;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    -webkit-animation: colorShift 3s infinite;
+    animation: colorShift 3s infinite;
+    font-size: 38px;
+    font-weight: 300;
+    font-family: "Open Sans", "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    padding-bottom: 12px;
+}
+
